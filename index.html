@@ -11,116 +11,163 @@
     <div class="container">
         <div class="header">
             <div class="search">
-                <label for="search"><img src=".//svgs/magnify.svg"></label>
-                <input type="search" name="search" id="search">
+                <label for="searchInput"><img src=".//svgs/magnify.svg"></label>
+                <input type="search" name="search" id="searchInput">
+                <div class="searchMorgan">
                 <img src=".//svgs/bell-ring.svg" class="notification">
                 <img src=".//svgs/paw.svg" class="logo">
                 <span>Morgan Oakley</span>
             </div>
+            </div>
             <div class="intro">
                 <img src=".//svgs/paw.svg">
-                <div>
+                <div class="introHello">
                     <span>Hi there,</span>
                     <h2>Morgan Oakley(@morgan)</h2>
                 </div>
+                <div class="introButtons">
                 <button>New</button>
                 <button>Upload</button>
                 <button>Share</button>
             </div>
+            </div>
         </div>
         <div class="dashboard">
-            <h1><img src=".//svgs/view-dashboard.svg"> Dashboard</h1>
+            <img src=".//svgs/view-dashboard.svg" class="dashboardLogo"> <h1> Dashboard</h1>
             <ul class="home">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li><img src=".//svgs/home-outline.svg"> Home</li>
+                <li><img src=".//svgs/card-account-details-outline.svg"> Profile</li>
+                <li><img src=".//svgs/message.svg"> Messages</li>
+                <li><img src=".//svgs/history.svg"> History</li>
+                <li><img src=".//svgs/file-multiple.svg"> Tasks</li>
+                <li><img src=".//svgs/account-group.svg"> Communities</li>
             </ul>
             <ul class="settings">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li><img src=".//svgs/cog.svg"> Settings</li>
+                <li><img src=".//svgs/help-box-outline.svg"> Support</li>
+                <li><img src=".//svgs/shield-check-outline.svg"> Privacy</li>
             </ul>
         </div>
         <div class="projects">
-            <h3>Your Projects</h3>
+            <div class="cardContainer">
             <div class="card">
                 <article>
                     <h4>Super Cool Project</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi impedit earum debitis, quas iure sequi facere harum eos, officiis cupiditate ullam.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
             <div class="card">
                 <article>
                     <h4>Less Cool Project</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque eveniet est illum facere ab soluta sint nulla alias! Recusandae asperiores eveniet facere sit praesentium impedit ab laboriosam? Nisi, architecto vel.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
             <div class="card">
                 <article>
                     <h4>Impossible Project</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi impedit earum debitis, quas iure sequi facere harum eos.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
             <div class="card">
                 <article>
                     <h4>Easy Peasy App</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, ullam incidunt. Veritatis quae nihil velit ea vitae officia cum dignissimos impedit quia! Maiores ullam asperiores, molestiae.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
             <div class="card">
                 <article>
                     <h4>Ad Blocker</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, delectus iure. Eligendi officia rem porro minima inventore voluptatem.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
             <div class="card">
                 <article>
                     <h4>Money Maker</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae natus aliquid doloribus sequi nobis aliquam quia dolorem assumenda quos hic impedit laboriosam obcaecati exercitationem.</p>
                 </article>
+                <div>
+                    <img src=".//svgs/star-plus-outline.svg">
+                    <img src=".//svgs/eye-plus-outline.svg">
+                    <img src=".//svgs/share-variant-outline.svg">
+                </div>
             </div>
         </div>
+        <div class="sidebar">
         <div class="announcements">
-            <h3>Announcements</h3>
+            <div class="announcementsContainer">
             <div class="card">
                 <h4>Site Maintenance</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ullam voluptatem similique facere facilis quia neque inventore libero consequuntur.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ullam voluptatem similique facere facilis quia neque.</p>
             </div>
             <div class="card">
                 <h4>Community Share Day</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ullam voluptatem similique facere facilis quia neque inventore libero.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ullam voluptatem similique facere facili.</p>
             </div>
             <div class="card">
                 <h4>Updated Privacy Policy</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero ratione nemo quidem quibusdam officiis, fugit eos velit, odio.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero ratione nemo quidem quibusdam.</p>
             </div>
         </div>
+    </div>
         <div class="trending">
-            <h3>Trending</h3>
+            <div class="trendingContainer">
             <div>
                 <img src=".//svgs/dog-side.svg" alt="">
+                <div>
                 <span>@tegan</span>
                 <p>World Peace Builder</p>
+                </div>
             </div>
             <div>
                 <img src=".//svgs/paw.svg" alt="">
+                <div>
                 <span>@morgan</span>
                 <p>Super Cool Project</p>
+                </div>
             </div>
             <div>
                 <img src=".//svgs/spider.svg" alt="">
+                <div>
                 <span>@kendall</span>
                 <p>Life Changing App</p>
+                </div>
             </div>
             <div>
                 <img src=".//svgs/penguin.svg" alt="">
+                <div>
                 <span>@alex</span>
                 <p>No Traffic Maker</p>
+                </div>
             </div>
         </div>
+        </div>
+    </div>
+    </div>
     </div>
     
 </body>
